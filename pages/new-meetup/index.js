@@ -3,7 +3,7 @@ import Head from "next/Head";
 
 import { useRouter } from "next/router";
 import NewMeetupForm from "../../components/meetups/NewMeetupForm";
-
+import { Fragment } from "react";
 const NewMeetUpPage = () => {
   const router = useRouter();
 
